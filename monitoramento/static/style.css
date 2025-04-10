@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .top-bar {
+    display: flex;
+    align-items: center;
+    background-color: #1e1e2f;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  .content {
+    display: flex;
+    height: calc(100vh - 80px);
+  }
+  
+  .main-camera {
+    flex: 3;
+    padding: 20px;
+  }
+  
+  .main-camera h2 {
+    margin-bottom: 10px;
+  }
+  
+  .main-camera video {
+    width: 100%;
+    height: 80vh;
+    background: black;
+    border-radius: 8px;
+  }
+  
+  .side-cameras {
+    flex: 1;
+    background-color: #eee;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .side-cameras h3 {
+    margin-bottom: 15px;
+  }
+  
+  .side-cameras ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .side-cameras li {
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .side-cameras li:hover {
+    transform: scale(1.05);
+  }
+  
+  .side-cameras video {
+    width: 100%;
+    border-radius: 5px;
+    background: black;
+  }
+  
+  .side-cameras p {
+    text-align: center;
+    margin-top: 5px;
+  }
+  
